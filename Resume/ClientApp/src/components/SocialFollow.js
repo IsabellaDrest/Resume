@@ -4,7 +4,7 @@ import {
     faLinkedin,
     faFacebook,
     faGithub,
-    faGit
+    
 }from "@fortawesome/free-brands-svg-icons";
 import './SocialFollow.css';
 
@@ -24,10 +24,7 @@ export default function SocialFollow() {
             className="facebook social">
                 <FontAwesomeIcon icon={faFacebook} size="3x" />
         </a>
-        <a href="https://www.facebook.com/isabella.drestrasmussen"
-            className="mail social">
-                <FontAwesomeIcon icon={faGit} size="3x"/>
-        </a>
+        
         </div>
     );
 }
