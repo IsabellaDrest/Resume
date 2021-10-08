@@ -1,9 +1,12 @@
-﻿a.navbar-brand {
+﻿@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200&display=swap');
+
+a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
-  color: #DEAB90!important;
-  font-family: 'Fjalla One', sans-serif;}
+  color:beige !important;
+  font-family: 'Noto Sans Mono', monospace;
+}
 
 .box-shadow {
   box-shadow: 0 .50rem .150rem rgba(0, 0, 0, 0.05);
@@ -22,7 +25,8 @@ right: 10px;
 .mb-3 {
   margin: 0px;
 }
-.navbar-collapse {
+.nav-container.container{
+  margin: 0px !important;
 }
 
 
@@ -34,8 +38,8 @@ right: 10px;
 }
 
 .nav-text {
-  color: #DEAB90!important;
-  font-family: 'Antonio', sans-serif;
+  color:beige!important;
+  font-family: 'Noto Sans Mono', monospace;
   font-weight: bold;
   
 }
