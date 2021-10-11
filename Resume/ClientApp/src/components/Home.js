@@ -3,6 +3,7 @@ import './Home.css';
 import Profile from "./Images/profile.jpg"
 import ParticlesBg from 'particles-bg'
 import SocialFollow from './SocialFollow';
+import './Home.css';
 
 export class Home extends Component {
   static displayName = Home.name;
