@@ -5,8 +5,11 @@ import {
     faFacebook,
     faGithub, 
 }from "@fortawesome/free-brands-svg-icons";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import './SocialFollow.css';
 
+library.add(faEnvelope);
 
 export default function SocialFollow() {
     return (
@@ -23,8 +26,8 @@ export default function SocialFollow() {
             className="facebook social">
                 <FontAwesomeIcon icon={faFacebook} size="3x" />
         </a>
-        <Mailto email="isabella.drest@gmail.com" subject="Hello" body="Hello world!">
-             Mail me!
+        <Mailto email="isabella.drest@gmail.com">
+        <FontAwesomeIcon className="mailSocial" icon={faEnvelope} size="3x" />
         </Mailto>
         </div>
     );
