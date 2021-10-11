@@ -1,9 +1,20 @@
 .infoBox{
     background-color: #eeeae1;
     margin: 30px;
+    padding-top: 30px !important;
     padding: 50px;
+    
+    height: auto;
 }
 
-h1 {
+.headline {
     color: #171515;
+    
+}
+
+.aboutMePhoto {
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
 }
