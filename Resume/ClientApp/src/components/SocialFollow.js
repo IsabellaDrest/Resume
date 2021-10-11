@@ -3,11 +3,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faLinkedin,
     faFacebook,
-    faGithub,
-    
+    faGithub, 
 }from "@fortawesome/free-brands-svg-icons";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import './SocialFollow.css';
 
+library.add(faEnvelope);
 
 export default function SocialFollow() {
     return (
@@ -24,7 +26,17 @@ export default function SocialFollow() {
             className="facebook social">
                 <FontAwesomeIcon icon={faFacebook} size="3x" />
         </a>
-        
+        <Mailto email="isabella.drest@gmail.com">
+        <FontAwesomeIcon className="mailSocial" icon={faEnvelope} size="3x" />
+        </Mailto>
         </div>
     );
 }
+
+function Mailto({ email, subject, body, ...props }) {
+    return (
+      <a href={`mailto:${email}?subject=${subject || ""}&body=${body || ""}`}>
+        {props.children}
+      </a>
+    );
+  }

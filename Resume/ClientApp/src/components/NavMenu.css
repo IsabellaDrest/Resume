@@ -2,15 +2,10 @@
 
 a.navbar-brand {
   white-space: normal;
-  text-align: center;
-  word-break: break-all;
   color:beige !important;
   font-family: 'Noto Sans Mono', monospace;
 }
 
-.box-shadow {
-  box-shadow: 0 .50rem .150rem rgba(0, 0, 0, 0.05);
-}
 
 .navbar-expand-sm {
   height: 100px;
@@ -41,6 +36,8 @@ right: 10px;
   color:beige!important;
   font-family: 'Noto Sans Mono', monospace;
   font-weight: bold;
+  margin-left: 10px;
+  margin-top: 30px;
   
 }
 
