@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-
 import ParticlesBg from 'particles-bg'
 import "./Education.css"
 
@@ -24,7 +23,7 @@ export class Education extends Component {
                 <h1 className="headline">Education</h1>
                 <VerticalTimeline>
                     <VerticalTimelineElement
-                        className="vertical-timeline-element--work"
+                        className="vertical-timeline-element--education"
                         date="2019 - present"
                         iconStyle={{ background: '#2B3242', color: '#fff' }}
                     >
@@ -35,7 +34,7 @@ export class Education extends Component {
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
-                        className="vertical-timeline-element--work"
+                        className="vertical-timeline-element--education"
                         date="2019 - 2019"
                         iconStyle={{ background: '#2B3242', color: '#fff' }}
                     >
@@ -46,7 +45,7 @@ export class Education extends Component {
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
-                        className="vertical-timeline-element--work"
+                        className="vertical-timeline-element--education"
                         date="2015 - 2018"
                         iconStyle={{ background: '#2B3242', color: '#fff' }}
                     >
@@ -57,7 +56,7 @@ export class Education extends Component {
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
-                        className="vertical-timeline-element--work"
+                        className="vertical-timeline-element--education"
                         date="2005 - 2015"
                         iconStyle={{ background: '#2B3242', color: '#fff' }}
                     >

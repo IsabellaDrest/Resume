@@ -4,7 +4,10 @@ import { Layout } from './components/Layout';
 import { Home } from './components/Home';
 import { Education } from './components/Education';
 import { AboutMe } from './components/AboutMe';
+import { Work } from './components/Work';
 import './custom.css'
+
+
 
 
 export default class App extends Component {
@@ -16,6 +19,7 @@ export default class App extends Component {
         <Route exact path='/' component={Home} />
         <Route path='/aboutme' component={AboutMe} />
         <Route path='/education' component={Education} />
+        <Route path='/work' component={Work} />
       </Layout>
     );
   }

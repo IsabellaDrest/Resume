@@ -1,0 +1,17 @@
+#root {
+    height: auto;
+    }
+    
+    .timeLine {
+        width: 500px;
+        height: 950px;
+    }
+    
+    .chrono {
+        height: 500px;
+        width: 500px;
+    }
+    
+    .infoBox {
+        margin-top: 70px;
+    }

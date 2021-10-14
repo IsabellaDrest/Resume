@@ -14,11 +14,13 @@ export class Home extends Component {
       <div className ="context" >
         <ParticlesBg className="background" type="cobweb" bg={true} />
          
-      <div className ="profilePicture">
+      <div className ="content">
+        <div className="innerContent">
         <img src={Profile} className="billede "alt="pp"/>
         <h1>Isabella Drest Rasmussen</h1>
         <h2> Student Software Developer</h2>
         <SocialFollow />
+        </div>
       </div> 
       </div>
    
