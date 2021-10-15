@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Home.css';
+import PhoneNumber from 'react-phone-number';
 import Profile from "./Images/profile.jpg"
 import ParticlesBg from 'particles-bg'
 import SocialFollow from './SocialFollow';
@@ -20,6 +20,7 @@ export class Home extends Component {
         <h1>Isabella Drest Rasmussen</h1>
         <h2> Student Software Developer</h2>
         <SocialFollow />
+        <PhoneNumber number="+4552487402" />
         </div>
       </div> 
       </div>
