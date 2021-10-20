@@ -18,3 +18,12 @@
     margin-bottom: 30px;
     
 }
+
+.bottembar {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}

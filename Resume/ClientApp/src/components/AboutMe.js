@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ParticlesBg from 'particles-bg'
+import SocialFollowBottom from './SocialFollowBottom';
 import "./AboutMe.css"
 import AboutMePhoto from "./Images/aboutMePhoto.JPG"
 
@@ -19,6 +20,9 @@ export class AboutMe extends Component {
         Sed vel euismod erat. Curabitur id iaculis magna, at viverra nunc. Nullam consequat tempor lorem non congue. Aliquam eget enim quis velit tempor rhoncus. Pellentesque ut fringilla nulla, ut blandit enim. Morbi ornare augue nisi, nec feugiat justo scelerisque sit amet. Etiam convallis dui et malesuada condimentum. Etiam lacinia tellus nunc, nec vulputate nisi cursus eu. Sed ac molestie nulla, quis mollis ipsum. Pellentesque elit elit, bibendum vitae nunc ac, fringilla malesuada mauris. Duis ultrices lobortis condimentum. Donec porttitor ante tellus, id suscipit augue elementum quis. Suspendisse ut nisl sapien. Phasellus egestas viverra risus. Nunc euismod velit nec interdum convallis. Donec eleifend libero lectus, non lacinia nisi lacinia vel.
         Morbi fringilla pharetra sollicitudin.  </p>
       </div>  
+      <div className ="bottembar" >
+      <SocialFollowBottom />
+      </div>
       </div>
    
     );

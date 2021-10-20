@@ -20,7 +20,6 @@ export class Home extends Component {
         <h1>Isabella Drest Rasmussen</h1>
         <h2> Student Software Developer</h2>
         <SocialFollow />
-        <PhoneNumber number="+4552487402" />
         </div>
       </div> 
       </div>

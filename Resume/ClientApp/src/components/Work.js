@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import ParticlesBg from 'particles-bg'
+import SocialFollowBottom from './SocialFollowBottom';
 import "./Work.css"
 
 
@@ -92,6 +93,9 @@ export class Work extends Component {
                     
                 </VerticalTimeline>
              </div>  
+             <div className ="bottembar" >
+                <SocialFollowBottom />
+            </div>
       </div>
    
     );
