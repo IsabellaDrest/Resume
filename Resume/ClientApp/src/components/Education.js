@@ -21,7 +21,7 @@ export class Education extends Component {
       <div className ="page" >
         <ParticlesBg className="background" type="cobweb" bg={true} />
              <div className="infoBox">
-                <h1 className="headline">Education</h1>
+                <h1 className="headlineE">Education</h1>
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"
