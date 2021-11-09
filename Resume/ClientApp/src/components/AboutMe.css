@@ -15,8 +15,37 @@
 
 .headline {
     color: #171515;
+    font-family: 'Noto Sans Mono', monospace;
     
 }
+
+.underHeadline {
+    color: #171515;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: large;
+    font-weight: bold;
+}
+
+.separator{
+    display: flex;
+    align-items: center;
+  }
+  
+  .separator h1{
+    padding: 0 1rem; /* creates the space */
+  }
+  
+  .separator .line1{
+    flex: 1;
+    height: 1px;
+    background-color: #000;
+  }
+
+  .separator .line2{
+    flex: 10;
+    height: 1px;
+    background-color: #000;
+  }
 
 .aboutMePhoto {
     height: 300px;
@@ -25,15 +54,15 @@
     
 }
 
-.overallText {
+.text {
     margin: 25px;
-    text-align: center;
-    
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 14px;
 
 }
 
 .backgroundPhoto {
-    width: 400px;
+    width: 350px;
     margin-top: 30px;
     margin-bottom: 30px;
 
@@ -44,6 +73,12 @@
     margin-top: 30px;
     margin-bottom: 30px;
 
+}
+
+.parisPhoto {
+    height: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .bottembar {
