@@ -27,7 +27,7 @@ export default function SocialFollow() {
                 <FontAwesomeIcon icon={faFacebook} size="3x" />
         </a>
         <Mailto email="isabella.drest@gmail.com">
-        <FontAwesomeIcon className="mailSocial" icon={faEnvelope} size="3x" />
+        <FontAwesomeIcon className="mailSocialBottom" icon={faEnvelope} size="3x" />
         </Mailto>
         </div>
     );

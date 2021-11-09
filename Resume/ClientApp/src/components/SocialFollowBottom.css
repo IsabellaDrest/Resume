@@ -8,8 +8,18 @@
     display: inline-block;
   }
 
-  a.social:hover {
-    transform: translateY(-2px);
+  .linkedinSocial:hover {
+    color: #000000 !important;
+  }
+
+  .facebookSocial:hover {
+    color: #000000 !important;
+
+  }
+
+  .githubSocial:hover {
+    color: #000000 !important;
+
   }
 
   .linkedinSocial {
@@ -29,15 +39,16 @@
 
   }
 
-  .mailSocial {
+  .mailSocialBottom {
     color: #eeeae1;
     margin: 0 1rem;
     transition: transform 250ms;
     display: inline-block;
   }
 
-  .mailSocial:hover {
-    transform: translateY(-2px);
+  .mailSocialBottom:hover {
+    color: #000000 !important;
+
   }
   
   

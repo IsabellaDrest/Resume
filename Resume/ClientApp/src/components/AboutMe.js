@@ -3,6 +3,8 @@ import ParticlesBg from 'particles-bg'
 import SocialFollowBottom from './SocialFollowBottom';
 import "./AboutMe.css"
 import AboutMePhoto from "./Images/aboutMePhoto.JPG"
+import Background from "./Images/Background.JPG"
+import Swimming from "./Images/swimming.png"
 
 
 export class AboutMe extends Component {
@@ -12,18 +14,32 @@ export class AboutMe extends Component {
     return (
      
       <div className ="page" >
-      <ParticlesBg className="background" type="cobweb" bg={true} />
-      <div className="infoBox">
-        <h1 className="headline">About me</h1>
-        <img src={AboutMePhoto} className="aboutMePhoto "alt="pp"/>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor id enim et pellentesque. Ut ac gravida libero, sit amet mattis eros. Etiam pellentesque dui sapien, non vulputate diam dapibus non. Phasellus ornare, est eget pharetra molestie, turpis dui mattis arcu, sit amet cursus arcu augue id diam. Suspendisse faucibus dolor nisl, a mattis tellus euismod quis. Donec quis dolor volutpat, congue purus elementum, feugiat dolor. Nunc efficitur ex sed lacinia convallis. Vivamus mattis nulla ut mauris dapibus, in molestie tellus rhoncus. Donec faucibus erat vitae est semper malesuada. Aliquam hendrerit vel ante id dictum. Vivamus massa purus, placerat suscipit finibus sit amet, condimentum vitae ipsum.
-        Sed vel euismod erat. Curabitur id iaculis magna, at viverra nunc. Nullam consequat tempor lorem non congue. Aliquam eget enim quis velit tempor rhoncus. Pellentesque ut fringilla nulla, ut blandit enim. Morbi ornare augue nisi, nec feugiat justo scelerisque sit amet. Etiam convallis dui et malesuada condimentum. Etiam lacinia tellus nunc, nec vulputate nisi cursus eu. Sed ac molestie nulla, quis mollis ipsum. Pellentesque elit elit, bibendum vitae nunc ac, fringilla malesuada mauris. Duis ultrices lobortis condimentum. Donec porttitor ante tellus, id suscipit augue elementum quis. Suspendisse ut nisl sapien. Phasellus egestas viverra risus. Nunc euismod velit nec interdum convallis. Donec eleifend libero lectus, non lacinia nisi lacinia vel.
-        Morbi fringilla pharetra sollicitudin.  </p>
-      </div>  
+        <ParticlesBg className="background" type="cobweb" bg={true} />
+          <div className="infoBox">
+             <h1 className="headline">About me</h1>
+              <div className="contentDiv">
+                <img src={AboutMePhoto} className="aboutMePhoto "alt="pp"/>
+                  <p className="overallText">My name is Isabella Drest Rasmussen and I am 22 years old. I am from Odense, Denmark and I am studying Software development at the IT- University of Copenhagen, where I am currently doing my fifth semester.
+                    I am seeking the position as Student Software Developer. </p>
+              </div> 
+
+              <div className="contentDiv">
+                <p className="overallText">I am Isabella Drest (22), from Denmark (Odense) and I am studying Software development at the IT- University of Copenhagen, where I am currently doing my fifth semester.
+                  I am seeking the position as Student Software Developer. </p>
+                    <img src={Background} className="backgroundPhoto "alt="pp"/>
+              </div> 
+
+              <div className="contentDiv">
+                <img src={Swimming} className="swimmingPhoto "alt="pp"/>
+                  <p className="overallText">I am Isabella Drest (22), from Denmark (Odense) and I am studying Software development at the IT- University of Copenhagen, where I am currently doing my fifth semester.
+                    I am seeking the position as Student Software Developer. </p>
+              </div> 
+          </div>  
+
       <div className ="bottembar" >
-      <SocialFollowBottom />
+        <SocialFollowBottom />
       </div>
-      </div>
+    </div>
    
     );
   }
