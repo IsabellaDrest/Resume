@@ -5,6 +5,7 @@ import { Home } from './components/Home';
 import { Education } from './components/Education';
 import { AboutMe } from './components/AboutMe';
 import { Work } from './components/Work';
+import { Skills } from './components/Skills';
 import './custom.css'
 
 
@@ -20,6 +21,7 @@ export default class App extends Component {
         <Route path='/aboutme' component={AboutMe} />
         <Route path='/education' component={Education} />
         <Route path='/work' component={Work} />
+        <Route path='/skills' component={Skills} />
       </Layout>
     );
   }
