@@ -32,9 +32,6 @@ export class NavMenu extends Component {
             <Collapse className="d-sm-inline-flex">
               <ul className="navbar-nav">
                 <NavItem>
-                  <NavLink tag={Link} className="nav-text" to="/">Home</NavLink>
-                </NavItem>
-                <NavItem>
                   <NavLink tag={Link} className="nav-text" to="/aboutme">About Me</NavLink>
                 </NavItem>
                 <NavItem>

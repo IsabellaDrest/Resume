@@ -1,7 +1,6 @@
 .allSkillBoxes {
     display: flex;
     flex-wrap:wrap;
-    align-items: center;
     justify-content: center
 }
 
@@ -9,4 +8,29 @@
     margin: 20px;
     text-align: center;
     max-width: 200px;
+}
+
+.headLines {
+    margin-top: 40px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: large;
+    font-weight: bold;
+    color: #eeeae1;
+    background-color: black;
+    padding-left: 10px;
+}
+
+.skill {
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 150px;
+    
+}
+
+.skillU {
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: small;
+    margin: 0px !important;
 }
