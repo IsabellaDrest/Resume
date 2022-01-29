@@ -1,12 +1,5 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200&display=swap');
 
-a.navbar-brand {
-  white-space: normal;
-  color:beige !important;
-  font-family: 'Noto Sans Mono', monospace;
-  font-size: 20px;
-
-}
 
 
 .navbar-expand-sm {
@@ -26,14 +19,6 @@ right: 10px;
   margin: 0px !important;
 }
 
-
-
-.navbar-nav {
-  float: right;
-  text-align: left;
-
-}
-
 .nav-text {
   color:beige!important;
   font-family: 'Noto Sans Mono', monospace;
@@ -42,4 +27,40 @@ right: 10px;
   font-size: 20px;
   
 }
+
+
+/* For wide computer screen*/
+@media only screen and (min-width: 500px) {
+
+  a.navbar-brand {
+    white-space: normal;
+    color:beige !important;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 20px;
+  }
+
+  .navbar-nav {
+    float: right;
+    text-align: left;
+
+  }
+}
+
+/* For mobile screen*/
+@media only screen and (max-width: 500px) {
+
+  a.navbar-brand {
+    white-space: normal;
+    color:beige !important;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 15px;
+  }
+  .navbar-nav {
+    float: right;
+    text-align: left;
+  
+  }
+  }
+
+
 

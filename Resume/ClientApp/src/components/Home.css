@@ -37,7 +37,12 @@
     
 }
 
-.innerContent {
+
+
+/* For wide computer screen*/
+@media only screen and (min-width: 770px) {
+
+ .innerContent {
     display: flex;
     height: 100%;
     flex-direction: column;
@@ -73,4 +78,47 @@ h2 {
     font-family: 'Noto Sans Mono', monospace;
 
 }
+}
+
+/* For mobile screen*/
+@media only screen and (max-width: 770px) {
+
+    .innerContent {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        margin-top: 40%;
+    }
+
+    .billede {
+        height: 200px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    
+    }
+    
+    h1 {
+        display: flex;
+        color:#eeeae1;
+        text-align: center;
+        font-family: 'Noto Sans Mono', monospace;
+        font-size:x-large;
+    
+    }
+    
+    h2 {
+        display: flex;
+        color:#eeeae1;
+        text-align: center;
+        font-family: 'Noto Sans Mono', monospace;
+        font-size: large;
+    }
+ }
 

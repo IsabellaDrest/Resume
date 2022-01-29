@@ -18,18 +18,18 @@ export default function SocialFollow() {
         <div class="social-container">
         <a href="https://www.linkedin.com/in/isabella-drest-rasmussen-3aa8b21a4/"
             className="linkedinSocial">
-                <FontAwesomeIcon icon={faLinkedin} size="3x" />
+                <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a href="https://github.com/IsabellaDrest"
             className="githubSocial">
-                <FontAwesomeIcon icon={faGithub} size="3x" />
+                <FontAwesomeIcon icon={faGithub}/>
         </a>
         <a href="https://www.facebook.com/isabella.drestrasmussen"
             className="facebookSocial">
-                <FontAwesomeIcon icon={faFacebook} size="3x" />
+                <FontAwesomeIcon icon={faFacebook}/>
         </a>
         <Mailto email="isabella.drest@gmail.com">
-        <FontAwesomeIcon className="mailSocialBottom" icon={faEnvelope} size="3x" />
+        <FontAwesomeIcon className="mailSocialBottom" icon={faEnvelope} />
         </Mailto>
         </div>
     );
