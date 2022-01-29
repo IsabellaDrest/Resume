@@ -8,6 +8,8 @@ import {
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import './SocialFollowBottom.css';
+import "./custom.css"
+
 
 library.add(faEnvelope);
 

@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import ParticlesBg from 'particles-bg'
 import SocialFollowBottom from './SocialFollowBottom';
 import "./Skills.css"
+import "./custom.css"
+
 
 
 

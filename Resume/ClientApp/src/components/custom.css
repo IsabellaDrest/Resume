@@ -1,0 +1,47 @@
+/* Provide sufficient contrast against white background */
+#root, div {
+  height: 100% ;
+}
+
+
+body {
+  background-color: #2b3242;
+  min-height: 100vh;
+  padding: 0;
+}
+
+/* For wide computer screen*/
+@media only screen and (min-width: 770px) {
+  .infoBox{ /* Den hvide box der går igen på alle sider*/
+    background-color: #eeeae1;
+    margin: 30px;
+    padding-top: 30px !important;
+    padding: 50px;
+    height: auto;
+  }
+
+  .headline { /* Overskriften på siderne*/
+    color: #171515;
+    font-family: 'Noto Sans Mono', monospace;
+    
+  }
+}
+
+
+/* For mobile screen*/
+@media only screen and (max-width: 770px) {
+  .infoBox{ /* Den hvide box der går igen på alle sider*/
+    background-color: #eeeae1;
+    margin: 30px;
+    padding-top: 30px !important;
+    padding: 20px;
+    height: auto;
+  }
+
+  h1.headline { /* Overskriften på siderne - mangler den rigtige størrelse*/
+    color: #171515;
+    font-family: 'Noto Sans Mono', monospace;
+    size: 5px !important; 
+    
+  }
+}

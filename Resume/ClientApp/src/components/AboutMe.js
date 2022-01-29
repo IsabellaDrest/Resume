@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import ParticlesBg from 'particles-bg'
 import SocialFollowBottom from './SocialFollowBottom';
 import "./AboutMe.css"
+import "./custom.css"
 import AboutMePhoto from "./Images/aboutMePhoto.JPG"
 import Background from "./Images/Background.JPG"
 import Swimming from "./Images/swimming.png"

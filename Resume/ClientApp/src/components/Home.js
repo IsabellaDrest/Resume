@@ -3,14 +3,15 @@ import PhoneNumber from 'react-phone-number';
 import Profile from "./Images/profile.jpg"
 import ParticlesBg from 'particles-bg'
 import SocialFollow from './SocialFollow';
-import './Home.css';
+import './Home.css'
+import './custom.css'
+
 
 export class Home extends Component {
   static displayName = Home.name;
 
   render () {
     return (
-     
       <div className ="context" >
         <ParticlesBg className="background" type="cobweb" bg={true} />
          

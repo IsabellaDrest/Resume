@@ -4,6 +4,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import ParticlesBg from 'particles-bg'
 import SocialFollowBottom from './SocialFollowBottom';
 import "./Education.css"
+import "./custom.css"
 
 
 

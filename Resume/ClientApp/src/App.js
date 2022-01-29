@@ -6,7 +6,7 @@ import { Education } from './components/Education';
 import { AboutMe } from './components/AboutMe';
 import { Work } from './components/Work';
 import { Skills } from './components/Skills';
-import './custom.css'
+import './components/custom.css'
 
 
 

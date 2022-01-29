@@ -1,35 +1,59 @@
-.allSkillBoxes {
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center
-}
-
-.skillbox {
-    margin: 20px;
-    text-align: center;
-    max-width: 200px;
-}
-
-.headLines {
-    margin-top: 50px;
-    font-family: 'Noto Sans Mono', monospace;
-    font-size:larger;
-    color:#2b3242;
-    text-decoration: underline;
-    padding-left: 10px;
-}
-
-.skill {
-    font-family: 'Noto Sans Mono', monospace;
-    font-size: small;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    width: 150px;
+/* Common css*/
+    .allSkillBoxes {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center
+    }
     
-}
+    .headLines {
+        margin-top: 50px;
+        font-family: 'Noto Sans Mono', monospace;
+        font-size:medium;
+        color:#2b3242;
+        text-decoration: underline;
+        padding-left: 10px;
+    }
+    
+    .skillU {
+        font-family: 'Noto Sans Mono', monospace;
+        font-size: small;
+        margin: 0px !important;
+    }
 
-.skillU {
-    font-family: 'Noto Sans Mono', monospace;
-    font-size: small;
-    margin: 0px !important;
-}
+    /* For wide computer screen*/
+    @media only screen and (min-width: 770px) {
+
+        .skillbox {
+            margin: 20px;
+            text-align: center;
+            max-width: 200px;
+        }
+    
+        .skill {
+            font-family: 'Noto Sans Mono', monospace;
+            font-size: small;
+            margin-top: 10px;
+            margin-bottom: 0px;
+            width: 150px;
+            
+        }
+    }
+
+    /* For mobile screen*/
+    @media only screen and (max-width: 770px) {
+
+        .skillbox {
+            margin: 5px;
+            text-align: center;
+            max-width: 100px;
+        }
+    
+        .skill {
+            font-family: 'Noto Sans Mono', monospace;
+            font-size: small;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            width: 100px;
+            
+        }
+    }
