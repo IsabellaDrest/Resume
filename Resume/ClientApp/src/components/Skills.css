@@ -11,12 +11,11 @@
 }
 
 .headLines {
-    margin-top: 40px;
+    margin-top: 50px;
     font-family: 'Noto Sans Mono', monospace;
-    font-size: large;
-    font-weight: bold;
-    color: #eeeae1;
-    background-color: black;
+    font-size:larger;
+    color:#2b3242;
+    text-decoration: underline;
     padding-left: 10px;
 }
 

@@ -1,3 +1,4 @@
+
 .infoBox{
     background-color: #eeeae1;
     margin: 30px;
@@ -20,10 +21,10 @@
 }
 
 .underHeadline {
-    color: #171515;
+    color: #2b3242;
     font-family: 'Noto Sans Mono', monospace;
     font-size: large;
-    font-weight: bold;
+    text-decoration: underline;
 }
 
 .separator{
@@ -47,12 +48,6 @@
     background-color: #000;
   }
 
-.aboutMePhoto {
-    height: 300px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    
-}
 
 .text {
     margin: 25px;
@@ -61,25 +56,19 @@
 
 }
 
-.backgroundPhoto {
+.horizontalPhoto {
     width: 300px;
     margin-top: 30px;
     margin-bottom: 30px;
 
 }
 
-.swimmingPhoto {
-    height: 350px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-
-}
-
-.parisPhoto {
+.verticalPhoto {
     height: 350px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 
 .bottembar {
     display: flex;
