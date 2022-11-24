@@ -5,14 +5,7 @@
         justify-content: center
     }
     
-    .headLines {
-        margin-top: 50px;
-        font-family: 'Noto Sans Mono', monospace;
-        font-size:medium;
-        color:#2b3242;
-        text-decoration: underline;
-        padding-left: 10px;
-    }
+    
     
     .skillU {
         font-family: 'Noto Sans Mono', monospace;
@@ -22,6 +15,15 @@
 
     /* For wide computer screen*/
     @media only screen and (min-width: 770px) {
+
+        .headLines {
+            margin-top: 50px;
+            font-family: 'Noto Sans Mono', monospace;
+            font-size:large;
+            color:#2b3242;
+            text-decoration: underline;
+            padding-left: 10px;
+        }
 
         .skillbox {
             margin: 20px;
@@ -41,6 +43,15 @@
 
     /* For mobile screen*/
     @media only screen and (max-width: 770px) {
+
+        .headLines {
+            margin-top: 50px;
+            font-family: 'Noto Sans Mono', monospace;
+            font-size:medium;
+            color:#2b3242;
+            text-decoration: underline;
+            padding-left: 10px;
+        }
 
         .skillbox {
             margin: 5px;

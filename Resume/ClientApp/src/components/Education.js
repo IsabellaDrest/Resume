@@ -24,12 +24,23 @@ export class Education extends Component {
              <div className="infoBox">
                 <h1 className="headlineE">Education</h1>
                 <VerticalTimeline>
-                    <VerticalTimelineElement
+                <VerticalTimelineElement
                         className="vertical-timeline-element--education"
-                        date="2019 - present"
+                        date="2022 - present"
                         iconStyle={{ background: '#2B3242', color: '#fff' }}
                     >
-                        <h3 className="vertical-timeline-element-title">Bachelor in Software Development</h3>
+                        <h3 className="vertical-timeline-element-title">MSc in Computer Science</h3>
+                        <h4 className="vertical-timeline-element-subtitle">EIT-University of Copenhagen, Copenhagen</h4>
+                        <p>
+                        Upgraded my mathematics level to A by an online course, while living in Paris.
+                        </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--education"
+                        date="2019 - 2022"
+                        iconStyle={{ background: '#2B3242', color: '#fff' }}
+                    >
+                        <h3 className="vertical-timeline-element-title">BSc in Software Development</h3>
                         <h4 className="vertical-timeline-element-subtitle">IT-University of Copenhagen, Copenhagen</h4>
                         <p>
                         Following courses in both programming, design and business classes.

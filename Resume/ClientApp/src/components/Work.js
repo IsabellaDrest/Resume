@@ -52,7 +52,7 @@ export class Work extends Component {
                         date="2017 - 2018"
                         iconStyle={{ background: '#2B3242', color: '#fff' }}
                     >
-                        <h3 className="vertical-timeline-element-title">Receptionist at P.Christensen</h3>
+                        <h3 className="vertical-timeline-element-title">Receptionist at Mercedes P.Christensen</h3>
                         <h4 className="vertical-timeline-element-subtitle">P.Christensen, Odense</h4>
                         <p>
                         Reception work and helped at customer service 

@@ -5,6 +5,7 @@
 .navbar-expand-sm {
   height: 100px;
   margin: 0px;
+
 }
 
 .d-sm-inline-flex {
@@ -24,19 +25,22 @@ right: 10px;
   font-family: 'Noto Sans Mono', monospace;
   margin-left: 10px;
   margin-top: 30px;
+  margin-bottom: 30px;
   font-size: 20px;
   
 }
 
 
 /* For wide computer screen*/
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 576px) {
 
   a.navbar-brand {
     white-space: normal;
     color:beige !important;
     font-family: 'Noto Sans Mono', monospace;
+    margin-top: 20px;
     font-size: 20px;
+    width: 20px;
   }
 
   .navbar-nav {
@@ -45,9 +49,8 @@ right: 10px;
 
   }
 }
-
 /* For mobile screen*/
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 576px) {
 
   a.navbar-brand {
     white-space: normal;
@@ -55,12 +58,34 @@ right: 10px;
     font-family: 'Noto Sans Mono', monospace;
     font-size: 15px;
   }
-  .navbar-nav {
+
+  .d-sm-inline-flex {
+    position: relative;
+    
+  }
+  .navbar-nav{
     float: right;
     text-align: left;
+    background-color:#2b3242;
+    width: 95%;
+    z-index: 1;
+    position: relative
+  }
+
+  .nav-text {
+    color:  #eeeae1 !important;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("./Images/burgermenu.png") !important;
+  }
   
+  .mr-2.navbar-toggler {
+    border: none;
   }
+
   }
+  
 
 
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Collapse, Container, Navbar, NavbarBrand, NavItem, NavLink } from 'reactstrap';
+import { Collapse, Container, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import './NavMenu.css';
 
@@ -10,6 +10,9 @@ export class NavMenu extends Component {
 
   constructor (props) {
     super(props);
+    this.state = {
+      user: localStorage.getItem("user")
+    };
 
     this.toggleNavbar = this.toggleNavbar.bind(this);
     this.state = {
@@ -26,22 +29,23 @@ export class NavMenu extends Component {
   render () {
     return (
       <header>
-        <Navbar className="navbar-expand-sm" light>
+        <Navbar className="navbar-expand-sm navbar-toggleable-sm" light>
           <Container className="nav-container">
             <NavbarBrand tag={Link} to="/">Isabella Drest Rasmussen</NavbarBrand>
-            <Collapse className="d-sm-inline-flex">
-              <ul className="navbar-nav">
+            <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
+            <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={!this.state.collapsed} navbar>
+              <ul className="navbar-nav flex-grow">
                 <NavItem>
-                  <NavLink tag={Link} className="nav-text" to="/aboutme">About Me</NavLink>
+                  <NavLink onClick={this.toggleNavbar} tag={Link} className="nav-text" to="/aboutme">About Me</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="nav-text" to="/education">Education</NavLink>
+                  <NavLink onClick={this.toggleNavbar} tag={Link} className="nav-text" to="/education">Education</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="nav-text" to="/work">Work</NavLink>
+                  <NavLink onClick={this.toggleNavbar} tag={Link} className="nav-text" to="/work">Work</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="nav-text" to="/skills">Skills</NavLink>
+                  <NavLink onClick={this.toggleNavbar} tag={Link} className="nav-text" to="/skills">Skills</NavLink>
                 </NavItem>
               </ul>
             </Collapse>
@@ -51,3 +55,4 @@ export class NavMenu extends Component {
     );
   }
 }
+

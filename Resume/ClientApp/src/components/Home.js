@@ -13,7 +13,7 @@ export class Home extends Component {
   render () {
     return (
       <div className ="context" >
-        <ParticlesBg className="background" type="cobweb" bg={true} />
+        <ParticlesBg className="background" type="cobweb" width='100vw' height="100vh" bg={true} />
          
       <div className ="content">
         <div className="innerContent">
