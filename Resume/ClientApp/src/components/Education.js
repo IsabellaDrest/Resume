@@ -49,17 +49,18 @@ export class Education extends Component {
                         <h3 className="vertical-timeline-element-title">BSc in Software Development</h3>
                         <h4 className="vertical-timeline-element-subtitle">IT-University of Copenhagen, Copenhagen</h4>
                         <p>
-                        During this bachelor I attented courses that covered several wide areas of programming. A course was <i>Algorithms and Data Structures<i> in which I programmed several algorithms in Java. 
+                        During this bachelor I attented courses that covered several wide areas of programming. A course was <i>Algorithms and Data Structures</i> in which I programmed several algorithms in Java. 
                         I have also had courses involving functional programming in F#, these were <i>Programs as Data</i> and <i>Functional programming</i>. 
                         Regarding databases I have completed the course <i>Introduction to Database Systems</i>, in which I learned and worked with PSQL. 
                         Many more courses were completed, here amongst courses working with C#, C, React JavaScript. Many of these courses came together during the first year project, which involed developing a working navigation map over Denmark, which we developed in Java.
-                        The second year project involved building a platform for teaching companies the rules of GDPR, which was build using React and C#.
+                        The second year project involved building a platform for teaching companies the rules of GDPR, which was build using React and C#.<br /><br />
+
                         The bachelor equally involved courses regarding design, including <i>Systematic design of user interface</i>. 
-                        Equally I have also completed courses regarding business and organizational work, amongst these were <i> System Development and Project Organisation</i> and <i> Business Processes and Organisation</i>
+                        Equally I have also completed courses regarding business and organizational work, amongst these were <i> System Development and Project Organisation</i> and <i> Business Processes and Organisation</i><br /><br />
+                        
                         For my bachelorproject I investigated why there are so few women in the tech/programming industry and what could be done to attract more woman to the field.
                         This resulted in a website which had a purpose of introducing women to programming by explaining simple terms, informing about possible job options when working in tech, 
-                          information about woman who have been or are working in tech, and site with small programming exercises for the user to try.
-                        </p>
+                        information about woman who have been or are working in tech, and site with small programming exercises for the user to try.</p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"
@@ -105,5 +106,5 @@ export class Education extends Component {
    
     );
   }
-  }
+}
   
