@@ -41,10 +41,10 @@ export class AboutMe extends Component {
               <div className="contentDiv">
                 <p className="text">
                   <p className="underHeadline">About me</p>
-                  I am Odense, Denmark where I lived the first 18 years of my life. 
-                  I have always had a great interest and curiosity in computers and technology. 
-                  This interest primaryly started with playing games on my grandads computer, 
-                  but as I got older I gained a great interest for developing and programming, which eventually led to taking a bachelors degree within software development. </p>
+                  I am from Odense, Denmark where I lived the first 18 years of my life. 
+                  I have always had a great interest and curiosity for computers and technology. 
+                  This interest primaryly started with playing games on my granddads computer, 
+                  but as I got older I gained a great interest for software developing and programming, which eventually led to taking a bachelors degree within software development. </p>
                     <img src={Background} className="horizontalPhoto"alt="pp"/>
               </div> 
 
@@ -54,16 +54,17 @@ export class AboutMe extends Component {
                     <p className="underHeadline">Swimming</p>
                     While living in Odense, I had a passion for swimming. 
                     I was an elite swimmer throughout most of my youth, and became a member of Team Denmark when i started High School.
-                    I practised swimming 26 hours per week while mainting school, which has made me a very organized and structured person, and equally determined and competetive.
+                    I practised swimming 28 hours per week while mainting school, which has made me a very organized and structured person, and equally determined and competetive.
                      </p>
               </div> 
 
               <div className="contentDiv">
                   <p className="text">
                     <p className="underHeadline">Paris</p>
-                    While living in Odense, I had a passion for swimming. 
-                    I was an elite swimmer throughout most of my youth, and became a member of Team Denmark when i started High School.
-                    I practised swimming 26 hours per week while mainting school, which has made me a very organized and structured person, and equally determined and competetive.
+                    After high school I decided to have a gap year, before starting university. I decided to spend my year in Paris, being an au pair for a french family.
+                    During this year I helped the family with dayly chores and took care of the children. I also participated in a french course, and from that I have gaines some understanding of French.
+                    While in Paris, I decided that I wanted to study Software Development. This required the course <i>Mathematics</i> on a higher level that I had at that time,
+                    and I therefor upgraded my math via an online course all while living in France, endning the course with the grade 12.
                      </p>
                      <img src={Paris} className="verticalPhoto "alt="pp"/>
               </div> 
