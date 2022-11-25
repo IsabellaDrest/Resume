@@ -15,11 +15,11 @@
 
     .linkIcon {
         font-family: 'Noto Sans Mono', monospace;
-        font-size: small;
-        color: #eeeae1;
+        font-size: x-small;
+        color:black;
         margin-top: 10px;
         margin-bottom: 0px;
-        width: 150px;
+        margin-left: 40%;
     }
 
     /* For wide computer screen*/

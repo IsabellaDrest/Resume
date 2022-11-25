@@ -30,7 +30,6 @@ export class AboutMe extends Component {
                   <p className="text">
                     <p className="underHeadline">General Info</p>
                     My name is Isabella Drest Rasmussen and I am studying Software development at the IT- University of Copenhagen.
-                    I am seeking the position as Student Software Developer.
                       <ul>
                         <li>Email: isabella.drest@gmail.com</li>
                         <li>Phone: +45 52487402</li>

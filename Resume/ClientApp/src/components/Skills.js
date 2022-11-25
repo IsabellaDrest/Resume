@@ -140,13 +140,13 @@ export class Skills extends Component {
             </p>
           </div>
         </div>
-        <p className="linkIcon" target="_blank" href="https://icons8.com/">Icons provided by icon8</p>
     </div>  
 
 
       <div className ="bottembar" >
         <SocialFollowBottom />
       </div>
+      <a className="linkIcon" target="_blank" href="https://icons8.com/">Icons provided by icon8</a>
     </div>
    
     );
