@@ -29,7 +29,8 @@ export class AboutMe extends Component {
                 <img src={AboutMePhoto} className="verticalPhoto "alt="pp"/>
                   <p className="text">
                     <p className="underHeadline">General Info</p>
-                    My name is Isabella Drest Rasmussen and I am studying Software development at the IT- University of Copenhagen.
+                    My name is Isabella Drest Rasmussen and I am currently doint my masters in Computer Science at the IT- University of Copenhagen. 
+                    I build this page using React Javascript, and I hope you enjoy it, and will take the time to read a bit about me, and I will look forward to hopefully hearing from you.
                       <ul>
                         <li>Email: isabella.drest@gmail.com</li>
                         <li>Phone: +45 52487402</li>
