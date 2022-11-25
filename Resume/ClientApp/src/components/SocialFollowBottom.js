@@ -16,15 +16,15 @@ library.add(faEnvelope);
 export default function SocialFollow() {
     return (
         <div class="social-container">
-        <a href="https://www.linkedin.com/in/isabella-drest-rasmussen-3aa8b21a4/"
+        <a target="_blank" href="https://www.linkedin.com/in/isabella-drest-rasmussen-3aa8b21a4/"
             className="linkedinSocial">
                 <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href="https://github.com/IsabellaDrest"
+        <a target="_blank" href="https://github.com/IsabellaDrest"
             className="githubSocial">
                 <FontAwesomeIcon icon={faGithub}/>
         </a>
-        <a href="https://www.facebook.com/isabella.drestrasmussen"
+        <a target="_blank" href="https://www.facebook.com/isabella.drestrasmussen"
             className="facebookSocial">
                 <FontAwesomeIcon icon={faFacebook}/>
         </a>

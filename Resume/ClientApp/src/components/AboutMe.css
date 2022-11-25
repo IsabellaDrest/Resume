@@ -7,6 +7,8 @@
     width: auto;
 }
 
+
+
 .underHeadline {
     color: #2b3242;
     font-family: 'Noto Sans Mono', monospace;
@@ -63,6 +65,13 @@
 }
 }
 
+@media only screen and (max-width: 991px) {
+
+.contentDiv:nth-child(even) {
+  flex-direction: column-reverse;
+}
+
+}
 
 /* For mobile screen*/
 @media only screen and (max-width: 770px) {
@@ -79,5 +88,7 @@
         margin-top: 30px;
         margin-bottom: 30px;
     }
+
+    
     }
 

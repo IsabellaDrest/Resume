@@ -23,7 +23,11 @@ export class Work extends Component {
       <div className ="page" >
         <ParticlesBg className="background" type="cobweb" bg={true} />
              <div className="infoBox">
-                <h1 className="headline">Work</h1>
+             <div class="separator">
+                <div class="line1"></div>
+                    <h1 className="headline">Work</h1>
+                <div class="line2"></div>
+            </div>
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"

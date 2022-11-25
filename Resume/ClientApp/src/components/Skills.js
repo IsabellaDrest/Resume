@@ -100,48 +100,49 @@ export class Skills extends Component {
 
           <div className="skillbox">
           <img src="https://img.icons8.com/external-bearicons-glyph-bearicons/50/000000/external-Calculator-business-and-marketing-bearicons-glyph-bearicons.png"/>          
-          <p className="skill"> Mathematic and numberminded
+          <p className="skill"> Mathematical and numberminded
             </p>
           </div>
         </div>
 
-        <p className="headLines"> Language</p>
+        <p className="headLines"> Languages</p>
 
         <div className="allSkillBoxes">
           <div className="skillbox">
-          <img src="https://img.icons8.com/ios-filled/50/000000/denmark-map.png"/>          
+          <img src="https://img.icons8.com/color/48/null/denmark-circular.png"/>       
           <p className="skill">Danish
             </p>
-            <p className="skillU">Fluent
+            <p className="skillU"><i>Fluent</i>
             </p>
           </div>
 
           <div className="skillbox">
-          <img src="https://img.icons8.com/ios-filled/50/000000/united-kingdom-map.png"/>          
+          <img src="https://img.icons8.com/color/48/null/great-britain-circular.png"/>          
           <p className="skill">English
             </p>
-            <p className="skillU">Fluent
+            <p className="skillU"><i>Fluent</i>
             </p>
           </div>
 
           <div className="skillbox">
-          <img src="https://img.icons8.com/ios-filled/50/000000/germany-map.png"/>           
+          <img src="https://img.icons8.com/color/48/null/germany-circular.png"/>         
           <p className="skill"> German
             </p>
-            <p className="skillU">Understanding
+            <p className="skillU"><i>Understanding</i>
             </p>
           </div>
 
           <div className="skillbox">
-          <img src="https://img.icons8.com/ios-filled/50/000000/france-map.png"/>          
+          <img src="https://img.icons8.com/color/48/null/france-circular.png"/>          
           <p className="skill"> French 
             </p>
-            <p className="skillU">Understanding
+            <p className="skillU"><i>Understanding</i>
             </p>
           </div>
         </div>
-
+        <p className="linkIcon" target="_blank" href="https://icons8.com/">Icons provided by icon8</p>
     </div>  
+
 
       <div className ="bottembar" >
         <SocialFollowBottom />
