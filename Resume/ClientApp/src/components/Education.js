@@ -58,9 +58,7 @@ export class Education extends Component {
                         The bachelor equally involved courses regarding design, including <i>Systematic design of user interface</i>. 
                         Equally I have also completed courses regarding business and organizational work, amongst these were <i> System Development and Project Organisation</i> and <i> Business Processes and Organisation</i><br /><br />
                         
-                        For my bachelorproject I investigated why there are so few women in the tech/programming industry and what could be done to attract more woman to the field.
-                        This resulted in a website which had a purpose of introducing women to programming by explaining simple terms, informing about possible job options when working in tech, 
-                        information about woman who have been or are working in tech, and site with small programming exercises for the user to try.</p>
+                        </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"
