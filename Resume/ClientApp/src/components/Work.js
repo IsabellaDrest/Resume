@@ -31,7 +31,17 @@ export class Work extends Component {
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        date="2020 - present"
+                        date="2023 - Present"
+                        iconStyle={{ background: '#2B3242', color: '#fff' }}
+                    >
+                        <h3 className="vertical-timeline-element-title">Student Worker - Software Developement</h3>
+                        <h4 className="vertical-timeline-element-subtitle">LEGO Group, Copenhagen</h4>
+                        <p>
+                        Software Developement in Developer Experience</p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        date="2020 - 2023"
                         iconStyle={{ background: '#2B3242', color: '#fff' }}
                     >
                         <h3 className="vertical-timeline-element-title">IT-Student Assistant at Danish Shipping</h3>
@@ -89,7 +99,7 @@ export class Work extends Component {
                         date="2012 - 2015"
                         iconStyle={{ background: '#2B3242', color: '#fff' }}
                     >
-                        <h3 className="vertical-timeline-element-title">Office girl at Signs & marks</h3>
+                        <h3 className="vertical-timeline-element-title">Office girl at Signs & Marks</h3>
                         <h4 className="vertical-timeline-element-subtitle">Signs & Marks, Odense</h4>
                         <p>
                         Cleaning, handling goods, warehouse packaging and finalizing collections and trend boards                         </p>
